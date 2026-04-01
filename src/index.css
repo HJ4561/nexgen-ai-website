@@ -218,7 +218,7 @@ section{padding:6rem 0;}
 /* NAVBAR (unchanged) */
 .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;background:rgba(26,31,46,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--border);transition:background .4s,box-shadow .4s;}
 .navbar.scrolled{background:rgba(26,31,46,.97);box-shadow:0 4px 40px rgba(0,0,0,.3);}
-.nav-logo{font-family:var(--display);font-size:1.45rem;font-weight:800;letter-spacing:-.03em;display:flex;align-items:center;gap:2px;}
+.nav-logo{font-family:var(--display);color: #5175e0; font-size:1.45rem;font-weight:800;letter-spacing:-.03em;display:flex;align-items:center;gap:2px;}
 .nav-logo .dot{color:var(--mint);}
 .nav-links{display:flex;gap:2.5rem;list-style:none;}
 .nav-links a{font-size:.875rem;font-weight:600;color:var(--text-2);transition:color .2s;position:relative;padding-bottom:2px;}
