@@ -611,11 +611,11 @@ const Services = () => {
               { num: '02', title: 'Blueprint', desc: 'Wireframes, user flows, and tech stack selection.' },
               { num: '03', title: 'Build', desc: 'Agile sprints with weekly demos and QA at every step.' },
               { num: '04', title: 'Launch', desc: 'Deploy, monitor, iterate. We stay for the long haul.' },
-            ].map((step, i) => (
-              <div key={step.num} style={{ padding: 'clamp(1.25rem,2.5vw,1.75rem)', background: 'var(--bg-2)', position: 'relative' }}>
-                <div style={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', color: 'var(--text-3)', letterSpacing: '0.12em', marginBottom: '0.85rem' }}>{step.num}</div>
-                <h3 style={{ fontSize: 'clamp(0.88rem,1.4vw,0.98rem)', marginBottom: '0.3rem' }}>{step.title}</h3>
-                <p style={{ fontSize: 'clamp(0.75rem,1.1vw,0.8rem)' }}>{step.desc}</p>
+            ].map((s) => (
+              <div key={s.num} style={{ padding: 'clamp(1.25rem,2.5vw,1.75rem)', background: 'var(--bg-2)', position: 'relative' }}>
+                <div style={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', color: 'var(--text-3)', letterSpacing: '0.12em', marginBottom: '0.85rem' }}>{s.num}</div>
+                <h3 style={{ fontSize: 'clamp(0.88rem,1.4vw,0.98rem)', marginBottom: '0.3rem' }}>{s.title}</h3>
+                <p style={{ fontSize: 'clamp(0.75rem,1.1vw,0.8rem)' }}>{s.desc}</p>
               </div>
             ))}
           </div>
